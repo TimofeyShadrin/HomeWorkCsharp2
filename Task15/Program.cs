@@ -31,7 +31,7 @@
             }
             catch
             {
-                Console.WriteLine("Error! You have entered some digits!");
+                Console.WriteLine("Error! Your input is incorrect!");
                 Console.WriteLine();
             }
         } 
