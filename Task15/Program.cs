@@ -4,14 +4,14 @@
         { 
             try {
             Console.Clear(); 
-            Console.Write("Enter a digit: ");
+            Console.Write("Enter the number of the day of the week: ");
             string? digit = Console.ReadLine();
             Console.WriteLine();
             
             if (!string.IsNullOrEmpty(digit)) 
             {
                 char number = Convert.ToChar(digit.ToString());
-                if (number == '6' || number == '7')
+            if (number == '6' || number == '7')
                 {
                     Console.WriteLine("This day is a day off");
                     Console.WriteLine();
@@ -23,7 +23,7 @@
                 }
             else
                 {
-                    Console.WriteLine("You entered an incorrect number!");
+                    Console.WriteLine("Error! Your input is incorrect!");
                     Console.WriteLine();
                 }
             }
@@ -31,8 +31,8 @@
             }
             catch
             {
-                Console.WriteLine("Error! Your input is incorrect!");
-                Console.WriteLine();
+                 Console.WriteLine("Error! Your input is incorrect!");
+                 Console.WriteLine();
             }
         } 
     } 
