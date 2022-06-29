@@ -1,8 +1,15 @@
-﻿namespace HelloWorld 
+﻿// Задача 13: Напишите программу, которая выводит третью цифру заданного числа
+// или сообщает, что третьей цифры нет.
+
+// 645 -> 5
+// 78 -> третьей цифры нет
+// 32679 -> 6
+
+namespace HelloWorld 
 { class Program 
     { static void Main(string[] args) 
         { 
-            Console.Write("Enter a three-digit number: ");
+            Console.Write("Enter number: ");
             string? number = Console.ReadLine();
             if (!string.IsNullOrEmpty(number))
             {
